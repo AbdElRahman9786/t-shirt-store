@@ -247,4 +247,401 @@ p{
     }
 }
 /* end hero */
+/* start component */
+.component .container .heading{
+text-align: center;
+margin-top: 100px;
+}
+.component .container .heading p{
+    color: rgba(0, 0, 0, 0.6);
+}
+.component .container .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.component .container .cards .card1{
+    flex-basis: 24%;
+}
+.component .container .cards .card2{
+    flex-basis: 24%;
+}
+.component .container .cards .card3{
+    flex-basis: 24%;
+}
+.component .container .cards .card4{
+    flex-basis: 24%;
+}
+.component .container .cards img{
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+.component .container .cards h6{
+    color: #808285;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.component .container .cards h6 +p{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.component .container .cards .card1  .color1{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: black;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.component .container .cards .card1  .color2{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: #faedeb;
+    margin-right: 5px;
+}
+.component .container .cards .card1  .color3{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: whitesmoke;
+    margin-right: 5px;
+}
+.component .container .cards .card2  .color1{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: black;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.component .container .cards .card2  .color2{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: #faedeb;
+    margin-right: 5px;
+}
+.component .container .cards .card2  .color3{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: whitesmoke;
+    margin-right: 5px;
+}
+.component .container .cards .card3  .color1{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: black;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.component .container .cards .card3  .color2{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: #faedeb;
+    margin-right: 5px;
+}
+.component .container .cards .card3  .color3{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: whitesmoke;
+    margin-right: 5px;
+}
+.component .container .cards .card4  .color1{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: black;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.component .container .cards .card4  .color2{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: #faedeb;
+    margin-right: 5px;
+}
+.component .container .cards .card4  .color3{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-color: whitesmoke;
+    margin-right: 5px;
+}
+.component .container .cards .size span{
+    border: solid 1px #808285;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+  
+}
+.component .container .cards .size{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width: 240px) {
+    .component .container .cards{
+        justify-content: center;
+    }
+    
+}
+/* end component */
+/* start base collection */
+
+.basecollection .container{
+    margin-top: 130px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.basecollection .container img{
+    max-width: 100%;
+}
+.basecollection .container .first_photo{
+    margin-bottom: 10px;
+}
+.basecollection .container .second_photo{
+    margin-bottom: 10px;
+}
+.basecollection .container  p{
+    margin-top: 30px;
+    color: #808285;
+}
+.basecollection .container h1{
+    font-weight: bold;
+    line-height: 1.3;
+}
+.basecollection .container button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+.basecollection .container button:hover{
+    color: #808285;
+}
+
+/* end base collection */
+ /* start new collection  */
+ .new_collection .container {
+    background-image: url("../images/bg-01.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    position: relative;
+   
+    z-index: -1;
+    margin-top: 50px;
+}
+.new_collection .container .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.new_collection .container button{
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+}
+ /* end new collection  */
+/* start spring_summer_collection */
+.spring_summer_collection .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 180px;
+    flex-wrap: wrap;
+   
+}
+.spring_summer_collection{
+    position: relative;
+    z-index: -1;
+}
+.spring_summer_collection .container .image{
+    
+    position: relative;
+    margin-top: -20px;
+}
+.spring_summer_collection .container .image img{
+    margin-top: -30px;
+    max-width: 100%;
+}
+.spring_summer_collection .container .text{
+    
+}
+.spring_summer_collection .container .image::before{
+    content: '';
+    position: absolute;
+    width: 750px;
+    height: 700px;
+   left: -100px;
+   
+    background-color: #faedeb;
+    z-index: -1;
+}
+.spring_summer_collection .container .text p{
+    font-size: small;
+    color: #808285;
+    margin-top: 30px;
+}
+.spring_summer_collection .container .text button{
+    background-color: black;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+@media (max-width:822px) {
+
+    .spring_summer_collection .container .image::before{
+        width: 200px;
+    }
+}
+
+/* end spring_summer_collection */
+/* start reviwes */
+.reviwes .container{
+    text-align: center;
+    margin-top:100px ;
+}
+.reviwes .container h1{
+    margin-bottom: 40px;
+    
+}
+.reviwes .container h3{
+text-decoration: underline;
+font-size: 17px;
+font-weight: bold;
+}
+.reviwes .container .stars{
+    margin-top: 30px;
+}
+.reviwes .container .stars i{
+    color: #FFD43B;
+}
+.reviwes .container .stars +p{
+    color: #808285;
+}
+/* end reviwes */
+/* start products */
+.products .container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.products .container .box1 {
+    width: 560px;
+    max-width: 100%;
+    margin-bottom: 30px;
+    background-image: url("../images/cat-men-300x300.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 75vh;
+    position: relative;
+    z-index: -1;
+    
+    
+}
+
+.products .container .box2  {
+    width: 560px;
+    max-width: 100%;
+    margin-bottom: 30px;
+    background-image: url("../images/cat-women-300x300.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 75vh;
+    position: relative;
+    z-index: -1;
+}
+
+.products .container .box1 button{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background-color: #f8f8f9;
+    border: none;
+    font-size: small;
+    color: #808285;
+    
+}
+.products .container .box2 button{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background-color: #f8f8f9;
+    border: none;
+    font-size: small;
+    color: #808285;
+    
+}
+/* end products */
+/* start footer */
+.footer{
+    background-color: #faedeb;
+    text-align: center;
+    padding: 50px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #645f5e;
+}
+.footer ul li{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+}
+.footer .social_media a i{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-right: 10px;
+    color: black;
+    
+    
+}
+ .copy_rights{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+/* end footer */
+
 
