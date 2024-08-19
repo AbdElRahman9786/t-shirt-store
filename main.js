@@ -4,6 +4,9 @@ let xmark=document.getElementById("xmark");
 let xmark2=document.getElementById("xmark2");
 let colors=document.getElementById("colors");
 let open=document.getElementById("open");
+let hero=document.getElementById("hero");
+let footer=document.getElementById("footer");
+let image=document.getElementById("image");
 bars.addEventListener("click",()=>{
     sidebars.style.display="block";
 })

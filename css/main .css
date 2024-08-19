@@ -145,15 +145,97 @@ p{
     right: 0;
     top: 0;
     background-color: white;
-    width: 35%;
+    width: 25%;
     height: 100vh;
     box-shadow: 0px 1px 7px 0px;
     display: none;
     transition: 0.3s;
+    overflow-y: auto;
  
    
    
     
+}
+.colorchange p{
+    padding: 20px 0;
+}
+.colorchange .default{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.colorchange .default h4{
+    font-size: 17px;
+    padding: 20px 0;
+    
+}
+.colorchange .default p{
+    color: #2764eb;
+    cursor: pointer;
+}
+.colorchange .default_colors{
+    display: flex;
+    align-items: center;
+    border: 1px solid #d1d5db;
+    margin-bottom: 20px;
+    
+}
+.colorchange .default_colors p{
+    flex: 1;
+    font-size: 14px;
+    
+}
+.colorchange .default_colors span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+    display: inline-block;
+    margin-right: 15px;
+}
+.colorchange .default_colors .sp1,.sp2,.sp3{
+background-color: black;
+}
+
+.colorchange .default_colors .sp4{
+    background-color: #666666;
+}
+.colorchange .default_colors .sp5{
+    background-color: #faedeb;
+}
+.colorchange .container .all_colors{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr) ) ;
+    gap: 10px;
+}
+.colorchange .container .all_colors .default_colors{
+    padding: 10px 0;
+    justify-content: center;
+}
+.colorchange .container p span{
+    font-weight: bold;
+}
+.colorchange .container .font{
+    text-align: center;
+    background-color: #f7f7f9;
+    border: 1px solid #d1d5db;
+}
+.colorchange .container .allfonts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.colorchange .container .allfonts div{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    background-color: #f7f7f9;
+    text-align: center;
+    margin: 3px;
+    font-size: xx-large;
+    cursor: pointer;
 }
 .colorchange .nav{
     display: flex;
