@@ -24,6 +24,6 @@ open.addEventListener("click",()=>{
     colors.style.display="block";
     open.style.display="none";
 });
-if(colors.style.display=="none"){
+if(colors.style.display=="none") {
     open.style.right="0";
 }
