@@ -227,6 +227,21 @@ background-color: black;
     justify-content: center;
     align-items: center;
 }
+.all_colors .default_colors .sp1{
+    background-color: #8e43f0;
+}
+.all_colors .default_colors .sp2{
+    background-color: #6300e2;
+}
+.all_colors .default_colors .sp3{
+    background-color: #150e1f;
+}
+.all_colors .default_colors .sp4{
+    background-color: #584d66;
+}
+.all_colors .default_colors .sp5{
+    background-color: #f3f1f6;
+}
 .colorchange .container .allfonts div{
     width: 70px;
     height: 70px;
