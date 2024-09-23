@@ -15,9 +15,9 @@ You can view the live demo of the project [here](https://abdelrahman9786.github.
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) HTML
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) CSS
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) JavaScript
 
 
 ## Installation
@@ -25,4 +25,3 @@ You can view the live demo of the project [here](https://abdelrahman9786.github.
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/t-shirt-store.git
-
